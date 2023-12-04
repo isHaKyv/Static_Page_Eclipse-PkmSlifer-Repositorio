@@ -1,0 +1,46 @@
+/* Add this CSS in a separate file, for example, ContactView.css */
+
+/* Container styling specific to ContactView */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .contact-content {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .contact-content h2 {
+    color: #333;
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  /* Paragraph styling */
+  .contact-content p {
+    color: #555;
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  /* Link styling */
+  .contact-content a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  
+  .contact-content a:hover {
+    text-decoration: underline;
+  }
+  

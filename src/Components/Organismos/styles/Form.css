@@ -1,0 +1,56 @@
+
+
+.form-container {
+  width: 800px; /* Aumentar el ancho del contenedor */
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.066); /* Fondo transparente para el input */
+  backdrop-filter: blur(2px); /* Desenfoque */
+  background-image: url('../../images/Form_back_3.png');
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrar el contenido del form-container */
+}
+
+.form-container h2 {
+  background: rgba(255, 255, 255, 0); /* Fondo transparente para el input */
+  font-size: 24px; /* Aumentar el tamaño de la fuente */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0); /* Fondo transparente para el input */
+}
+
+label {
+  margin-bottom: 5px;
+  background: none; /* Fondo transparente para el label */
+  text-align: center; /* Centrar el texto del label */
+  font-size: 16px; /* Aumentar el tamaño de la fuente */
+}
+
+input {
+  padding: 12px; /* Aumentar el padding para alargar los inputs */
+  margin-bottom: 32px;
+  background: rgba(255, 255, 255, 0.148); /* Fondo transparente para el input */
+  border: 2px solid #fefafad0;
+  border-radius: 12px;
+  color: #ffffff; /* Color del texto del input */
+  text-align: center; /* Centrar el texto del input */
+  font-size: 16px; /* Aumentar el tamaño de la fuente */
+}
+
+button {
+  padding: 10px;
+  background-color: rgba(239, 11, 11, 0.541);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; /* Aumentar el tamaño de la fuente */
+}
+
+button:hover {
+  background-color: rgb(153, 16, 16);
+}

@@ -1,0 +1,50 @@
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Lato, sans-serif';
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px; /* Agregado para dar espacio al botón */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
